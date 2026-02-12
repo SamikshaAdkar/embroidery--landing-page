@@ -1,0 +1,51 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff8f5;   /* Soft peach background */
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #8e44ad;  /* Purple */
+    color: white;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: #ffd6ec;  /* Light pink hover */
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+    color: #333;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: #6a1b9a;
+}
+
+.hero button {
+    padding: 12px 25px;
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.hero button:hover {
+    background-color: #c2185b;
+}
